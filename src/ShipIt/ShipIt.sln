@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipIt.Server.Web", "ShipIt.Server.Web\ShipIt.Server.Web.csproj", "{8E136A7E-107D-4C41-A1EB-E52D7D36D205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipIt.Server.Web.Tests", "ShipIt.Server.Web.Tests\ShipIt.Server.Web.Tests.csproj", "{66780BBD-D6B4-4504-B4CB-9D2A9FEEF92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E136A7E-107D-4C41-A1EB-E52D7D36D205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E136A7E-107D-4C41-A1EB-E52D7D36D205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E136A7E-107D-4C41-A1EB-E52D7D36D205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E136A7E-107D-4C41-A1EB-E52D7D36D205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66780BBD-D6B4-4504-B4CB-9D2A9FEEF92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66780BBD-D6B4-4504-B4CB-9D2A9FEEF92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66780BBD-D6B4-4504-B4CB-9D2A9FEEF92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66780BBD-D6B4-4504-B4CB-9D2A9FEEF92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
