@@ -9,6 +9,7 @@ namespace ShipIt.Server.Data
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
+		public DateTimeOffset CreatedDate { get; set; }
 
 		public virtual ICollection<Environment> Environments { get; set; }
 		public virtual ICollection<Release> Releases { get; set; } 

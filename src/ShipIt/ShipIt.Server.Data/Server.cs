@@ -12,6 +12,7 @@ namespace ShipIt.Server.Data
 		public string Name { get; set; }
 		public string Url { get; set; }
 		public string Description { get; set; }
+		public DateTimeOffset CreatedDate { get; set; }
 
 		public virtual Environment Environment { get; set; }
 		public virtual Collection<Package> Packages { get; set; } 

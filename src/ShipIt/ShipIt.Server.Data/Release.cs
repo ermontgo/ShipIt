@@ -9,6 +9,7 @@ namespace ShipIt.Server.Data
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
+		public DateTimeOffset CreatedDate { get; set; }
 
 		public virtual Process Process { get; set; }
 
