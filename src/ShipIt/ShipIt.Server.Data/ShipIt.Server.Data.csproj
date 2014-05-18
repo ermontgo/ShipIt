@@ -47,8 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Deployment.cs" />
+    <Compile Include="DeploymentContext.cs" />
     <Compile Include="DeploymentLogEntry.cs" />
+    <Compile Include="DeploymentRepository.cs" />
     <Compile Include="Environment.cs" />
+    <Compile Include="IDeploymentContext.cs" />
+    <Compile Include="IDeploymentRepository.cs" />
     <Compile Include="Package.cs" />
     <Compile Include="Process.cs" />
     <Compile Include="Product.cs" />

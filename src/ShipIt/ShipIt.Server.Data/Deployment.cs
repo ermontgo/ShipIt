@@ -10,6 +10,8 @@ namespace ShipIt.Server.Data
 	{
 		public int Id { get; set; }
 		public Product Product { get; set; }
+        public Environment Environment { get; set; }
+        public Release Release { get; set; }
 
 		public DateTimeOffset StartedDate { get; set; }
 		public DateTimeOffset CompletedDate { get; set; }
